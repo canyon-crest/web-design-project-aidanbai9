@@ -68,6 +68,13 @@ a:hover{
     border-radius: 3px;
     font-weight:bold
 }
+.bold{
+    font-weight:bold
+}
+.footer{
+    background-color:white;
+    text-align: center;
+}
 #container{
     width: 800px;
     margin:0 auto; 
