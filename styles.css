@@ -82,3 +82,54 @@ a:hover{
 
   );
 }
+#sidebar{
+    background-color: black;
+    padding: 20px;
+    line-height: 2.25em;
+    border: 2px solid white;
+    float: right;
+    margin:20px;
+    margin-top: 110px;
+}
+#sidebar h3{
+    border: none;
+    text-align: center;
+    padding:5px;
+    margin: 5px auto;
+    margin-top: 1px;
+    border: 5px solid greenyellow
+}
+li{
+    font-style:italic
+}
+@media (max-width:1200px){
+    #container{
+        background-color: gray;
+        width:500px;
+    }
+}
+@media (max-width:992px){
+    #container{
+        background-color: lightgray;
+        width: 100%;
+    }
+    body,p,#container{
+        margin:0;
+        border:none;
+        padding:0;
+    }
+    p{
+        padding: 20px;
+    }
+    img{
+        width:150px;
+    }
+}
+@media (max-width:700px){
+    #sidebar{
+        display: none;
+    }
+    img{
+        width:100px;
+    }
+}
