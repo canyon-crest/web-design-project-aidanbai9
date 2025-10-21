@@ -181,6 +181,18 @@ a:hover{
     margin-top: 1px;
     border: 5px solid greenyellow;
 }
+#sidebar ul{
+    list-style-position: outside;
+    padding-left: 14px; /* reduced indent for a tighter, aesthetic look */
+    margin: 6px 0 0 6px; /* small outer margin */
+    text-align: left; /* left-align the list content */
+}
+#sidebar li{
+    display: list-item;
+    margin: 6px 0;
+    padding-left: 0;
+    text-indent: 0;
+}
 li{
     font-style: italic;
 }
